@@ -1,0 +1,39 @@
+$primary-color:black;
+$acent:white;
+
+@import "header";
+
+@mixin deepak($letter,$font){
+   
+    font-size: 20px;
+    letter-spacing: $letter;
+    font-size: $font;
+    display: flex;
+}
+
+
+body{
+    background-color: $primary-color;
+    color:$acent;
+}
+.abc {
+    background: red;
+    ul {
+        list-style: none;
+        padding: 0;
+        padding: 10px;
+        @include deepak(575px,2px);
+
+        li{
+            color: aqua;
+            @include deepak(0px,200px);
+
+            &:hover{
+                color: pink;
+            }
+        }
+       
+    }
+}
+
+

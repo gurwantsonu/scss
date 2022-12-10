@@ -1,0 +1,31 @@
+body {
+  background: rgb(0, 0, 0) !important;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.abc {
+  background: red;
+}
+.abc ul {
+  list-style: none;
+  padding: 0;
+  padding: 10px;
+  font-size: 20px;
+  letter-spacing: 575px;
+  font-size: 2px;
+  display: flex;
+}
+.abc ul li {
+  color: aqua;
+  font-size: 20px;
+  letter-spacing: 0px;
+  font-size: 200px;
+  display: flex;
+}
+.abc ul li:hover {
+  color: pink;
+}/*# sourceMappingURL=style.css.map */
